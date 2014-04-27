@@ -1,7 +1,9 @@
 Para agregar estos datos al servidor mongo debemos preferiblemente movernos en la terminal o cmd a la carpeta en donde esten
-luego ejecutamos por cada archivo el siguiente comando
+luego ejecutamos por cada archivo el siguiente comando:
 
-mongo localhost/stecnica users.js
+
+Por ejemplo para los usuarios
+$> mongo localhost/stecnica users.js
 
 De esta manera suponiendo que corremos el servidor mongo de manera local agregaremos datos de usuarios a la BD llamada stecnica
 
