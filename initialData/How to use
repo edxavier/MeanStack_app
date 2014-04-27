@@ -1,0 +1,8 @@
+Para agregar estos datos al servidor mongo debemos preferiblemente movernos en la terminal o cmd a la carpeta en donde esten
+luego ejecutamos por cada archivo el siguiente comando
+
+mongo localhost/stecnica users.js
+
+De esta manera suponiendo que corremos el servidor mongo de manera local agregaremos datos de usuarios a la BD llamada stecnica
+
+todos los usuarios poseen una clave inicial que esta encriptada, la clave es 12345 y podra ser cambiada en cualquier monento una ves inician sesion en la app.
